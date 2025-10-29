@@ -5,6 +5,6 @@ from datatime import datetime
 # Page Config
 st.set_page_config(
   page_title = 'Asheana Juman | Portfolio',
-  page_icon='🎯'
+  page_icon='🎯',
   layout = 'wide'
 )
