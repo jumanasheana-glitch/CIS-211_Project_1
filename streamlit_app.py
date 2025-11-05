@@ -40,7 +40,7 @@ with col3:
 st.write('---')
 
  # Introduction with columns
-  col1, col2 = st.columns([2,1])
+col1, col2 = st.columns([2,1])
   with col1:
     st.subheader('Welcome to my digital space!👋')
     st.write('''
