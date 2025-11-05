@@ -43,7 +43,7 @@ st.write('---')
 col1, col2 = st.columns ([2,1])
 with col1:
   st.subheader('Welcome to my digital space! 🙋🏽‍♀️')
-  St.writw ('''
+  St.write ('''
                 I am a student that currently attending Medagr Evers College. Who's currently learning HTML, CSS, Javascript, and Python to build innovative solutions.
                 🎯 ** Current Focus:** Building interactive web applications with streamlit
                 📚 ** Currently learning:** Internet and Energin Technolgies (cIS 211)
