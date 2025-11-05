@@ -56,3 +56,35 @@ with col1:
 with col2:
     # Placeholder for image
   st.image('https://raw.githubusercontent.com/asheana.juman/cis211_project1/refs/heads/main/funny cat.jfif', use_column_width=True)
+
+# About Page
+elif page == '🤠 About':
+  st. title ('About Me')
+
+# Timeline of my professional Journey
+ st.subheader('my journey 🗺')'
+
+with st.expander('2025 - Present: Medgar Evers College'):
+  st.write('''
+            - Major: Business Admin
+            - Relevant Coursework: Internet & Emerging Technologies, Programming, Database Systems, AI
+                - Activities: 
+            ''')
+
+st.expander('2023 - 2025: Epic South High School')
+ st.write('''
+                - Graduated with honors
+                - AP Computer Science A (Score: 5)
+                - Founded Coding Club
+            ''')
+
+
+  st.subheader('Interests & Hobbies 🏀')
+  interests = ['Web Development', 'AI/Machine Learning', 'Photography', 'Basketball', 'Travel', 'Baseball']
+
+  # Display the interests in columns
+cols = st.columns(3)
+  for i, interest in enumerate(interests):
+    with cols[i % 3]:
+      st.info(f'🔷 {interest}')
+  
