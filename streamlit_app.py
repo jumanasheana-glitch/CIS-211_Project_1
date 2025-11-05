@@ -41,7 +41,7 @@ st.write('---')
 
 #Introduction with columns
 col1, col2 = st.columns ([2,1])
-with col1;
+with col1:
   st.subheader('Welcome to my digital space! 🙋🏽‍♀️')
   St.writw ('''
                 I am a student that currently attending Medagr Evers College. Who's currently learning HTML, CSS, Javascript, and Python to build innovative solutions.
