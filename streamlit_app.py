@@ -47,7 +47,6 @@ with col1:
                 
                 I am a student that currently attending Medagr Evers College. Who's currently learning HTML, CSS, Javascript, and Python to build innovative solutions.
                
-            
                 🎯 **Current Focus:** Building interactive web applications with Streamlit
             
                 📚 **Currently Learning:** Internet and Emergin Technologies (CIS 211)
