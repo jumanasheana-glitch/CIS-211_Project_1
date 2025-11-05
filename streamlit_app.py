@@ -46,6 +46,12 @@ with col1:
   st.write ('''
                 I am a student that currently attending Medagr Evers College. Who's currently learning HTML, CSS, Javascript, and Python to build innovative solutions.
                 🎯 ** Current Focus:** Building interactive web applications with streamlit
+
+                
                 📚 ** Currently learning:** Internet and Energin Technolgies (cIS 211)
+
+
                 🌱** Fun Fact: ** I can do cool makeup looks!
+
+                
   ''')
