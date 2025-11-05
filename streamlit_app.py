@@ -53,3 +53,6 @@ with col1:
             
                 🌱 **Fun Fact:** I can love doing cool makeup looks !
             ''')
+with col2:
+    # Placeholder for image
+  st.image('https://raw.githubusercontent.com/asheana.juman/cis211_project1/refs/heads/main/funny cat.jfif', use_column_width=True)
