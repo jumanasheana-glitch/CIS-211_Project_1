@@ -46,7 +46,7 @@ with col1:
     st.write('''
                 
                 I am a student that currently attending Medagr Evers College. Who's currently learning HTML, CSS, Javascript, and Python to build innovative solutions.
-                🎯 ** Current Focus:** Building interactive web applications with streamlit
+               
             
                 🎯 **Current Focus:** Building interactive web applications with Streamlit
             
