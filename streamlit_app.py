@@ -52,5 +52,5 @@ with col1:
             
                 📚 **Currently Learning:** Internet and Emergin Technologies (CIS 211)
             
-                🌱 **Fun Fact:** I can solve a Rubik's cube in under 2 minutes!
+                🌱 **Fun Fact:** I can love doing cool makeup looks !
             ''')
