@@ -39,17 +39,18 @@ with col3:
 
 st.write('---')
 
-#Introduction with columns
-col1, col2 = st.columns ([2,1])
-with col1:
-  st.subheader('Welcome to my digital space! 🙋🏽‍♀️')
-  st.write ('''
+ # Introduction with columns
+  col1, col2 = st.columns([2,1])
+  with col1:
+    st.subheader('Welcome to my digital space!👋')
+    st.write('''
+                
                 I am a student that currently attending Medagr Evers College. Who's currently learning HTML, CSS, Javascript, and Python to build innovative solutions.
                 🎯 ** Current Focus:** Building interactive web applications with streamlit
-                
-                📚 ** Currently learning:** Internet and Energin Technolgies (cIS 211)
-
-
-
-                🌱** Fun Fact: ** I can do cool makeup looks!                
-  ''')
+            
+                🎯 **Current Focus:** Building interactive web applications with Streamlit
+            
+                📚 **Currently Learning:** Internet and Emergin Technologies (CIS 211)
+            
+                🌱 **Fun Fact:** I can solve a Rubik's cube in under 2 minutes!
+            ''')
