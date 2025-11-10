@@ -74,13 +74,11 @@ with st.expander('2025 - Present: Medgar Evers College'):
 st.expander('2023 - 2025: Epic South High School')
  st.write('''
                 - Graduated with honors
-                - AP Computer Science A (Score: 5)
-                - Founded Coding Club
-            ''')
+                 ''')
 
 
   st.subheader('Interests & Hobbies 🏀')
-  interests = ['Web Development', 'AI/Machine Learning', 'Photography', 'Basketball', 'Travel', 'Baseball']
+  interests = ['Building legos', 'Reading Fictional books', 'Photography', 'Forumla 1', 'Makup Tricks']
 
   # Display the interests in columns
 cols = st.columns(3)
