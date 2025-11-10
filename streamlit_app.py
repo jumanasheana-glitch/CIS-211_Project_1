@@ -58,7 +58,7 @@ with col2:
   st.image('https://raw.githubusercontent.com/asheana.juman/cis211_project1/refs/heads/main/funny cat.jfif', use_column_width=True)
 
 # About Page
-elif page == '😎 About':
+elif page == '🤠 About':
   st. title ('About Me')
 
 # Timeline of my professional Journey
@@ -77,6 +77,7 @@ st.expander('2023 - 2025: Epic South High School')
                  ''')
 
 
+
   st.subheader('Interests & Hobbies 🏀')
   interests = ['Building legos', 'Reading Fictional books', 'Photography', 'Forumla 1', 'Makup Tricks']
 
@@ -85,4 +86,69 @@ cols = st.columns(3)
   for i, interest in enumerate(interests):
     with cols[i % 3]:
       st.info(f'🔷 {interest}')
+elif page == '💼 Projects':
+  st.titlw('My Projects')
+  st.write('Here are some projects I have worked on')
+
+  # Project 1
+  with st.container():
+    col1, col2 = st.columns([1, 2])
   
+    with col1:
+        st.image('
+
+    with col2:
+        st.subheader('🛒 E-Commerce Price Tracker')
+        st.write('Python web scraper that monitors Amazon prices and sends alerts')
+        st.caption('**Technologies:** Python, BeautifulSoup, Streamlit')
+
+
+# Project 2
+with st.container():
+    col1, col2 = st.columns([1,2])
+    with col1:
+      st.image('https://www.publicdomainpictures.net/pictures/90000/nahled/calculator-black-clipart.jpg')
+    with col2:
+      st.subheader('📊 Student Grade Calulator')
+      st.write('Interactive web app for calculating and visualizing grades')
+      st.caption('**Technologies:** Python, Pandas, Plotly')
+
+elif page == '🛠 Skills':
+  st.tile ('Technical Skills')
+
+  # Skills with progress bars
+  st.subheader('Programming Languages')
+
+  skills_data = {
+    'Python' : 85,
+    'HTML/CSS' : 70,
+    'JavaScript' : 60,
+    'SQL' : 50,
+    'Technical Writing' : 40
+  }
+
+  for skill, level in skills_data.items():
+    col1, col2 = st.columns([1,3])
+    with col1:
+      st.write(skill)
+    with col2:
+      st.progress(level/100)
+
+st.subheader('Tools & Technology')
+
+col1, col2, col3 = st.columns(3)
+with col1:
+   st.success('Excel')
+    st.info('Word')
+    st.warning('Access')
+
+  with col2:
+    st.success('PowerPoint')
+    st.info('Google Docs')
+    st.warning('ChatGPT/AI Tools')
+    
+  with col3:
+    st.success('Presentations')
+    st.info('Writing')
+    st.warning('Social Media')
+    
