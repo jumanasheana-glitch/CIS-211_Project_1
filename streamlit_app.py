@@ -167,3 +167,27 @@ st.download_button(
   mime ='application/pdf'
 )
 
+elif page == '📩 Contact':
+  st.title("Let's Connect!")
+
+  col1, = st.columns(1)
+
+  with col1:
+    st.subheader('Send me a message.')
+
+    st.write('''
+        📧 **Email:** Jumanasheana@gmail.com
+
+        🏢 **LinkedIn:** [linkedin.com/in/yourname]
+
+        👩‍💻 **Github:** [https://
+
+        📷 **Instagram:** [@yourhandle(https://instagram.com)]
+
+    ''')
+
+# Fun interactive element 
+st.sunbheader("Current Status")
+status = st.selectbox(" I'm currently:",
+                      ['👩🏽‍💻 Coding',
+
