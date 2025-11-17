@@ -180,14 +180,27 @@ elif page == '📩 Contact':
 
         🏢 **LinkedIn:** [linkedin.com/in/yourname]
 
-        👩‍💻 **Github:** [https://
+        👩‍💻 **Github:** [/https://github.com/jumanasheana-glitch]
 
         📷 **Instagram:** [@yourhandle(https://instagram.com)]
 
     ''')
 
-# Fun interactive element 
-st.sunbheader("Current Status")
-status = st.selectbox(" I'm currently:",
-                      ['👩🏽‍💻 Coding',
+# Fun interative element
+    st.subheader('Current Status')
+
+    status = st.selectbox(
+        "I'm currently:",
+        [
+            '👩‍💻 Coding',
+            '📕 Studying',
+            '☕ On a coffee break',
+            '🎮 Gaming',
+            '😴 Sleeping'
+        ]
+    )
+
+
+    st.info(f'Status: {status}')
+    
 
