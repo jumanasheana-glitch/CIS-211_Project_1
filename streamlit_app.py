@@ -202,5 +202,11 @@ elif page == '📩 Contact':
 
 
     st.info(f'Status: {status}')
-    
+ 
+    # Footer
+    st.write('---')
+    st.markdown(
+        f'<center>Made with 💗 using Streamlit | © {datetime.now().year} Avinash Jairam </center>',
+        unsafe_allow_html = True
+    )   
 
